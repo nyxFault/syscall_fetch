@@ -23,7 +23,7 @@ def get_calling_convention(arch):
         values = list(data.values())
 
         # Beautify output with tabulate and color
-        print(Fore.CYAN + f"\nCalling Convention for {arch.upper()}:\n")
+        print(Fore.CYAN + f"\nCalling Convention for {arch.lower()}:\n")
 
         header_style = [
             Style.BRIGHT + Fore.LIGHTCYAN_EX + header + Style.RESET_ALL
